@@ -1,0 +1,99 @@
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px; /* Matches input field padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px; /* Matches input field font size */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Matches input field border radius */
+    margin-left: 15px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button:active {
+    background-color: #3e8e41; /* Even darker green when clicked */
+  }
+
+
+  input[type="text"] {
+    background-color: #f2f2f2; /* Light gray */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 10px; /* Some padding */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Font size */
+    color: #666; /* Text color */
+  }
+
+
+  table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 15%;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #e6e6e6;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  div {
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 7px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 39%;
+    height: 20%;
+  }
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin: 10px;
+    margin-left: 12%;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
